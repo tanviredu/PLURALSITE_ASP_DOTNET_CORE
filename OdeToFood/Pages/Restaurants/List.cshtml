@@ -5,5 +5,15 @@
 
 <h1> Restaurants List </h1>
 
-@Model.Message
+<table class="table table-hover">
+    @foreach(var resturant in Model.ResturantsField){
+    
+        <tr> 
+            <td>@resturant.Name</td>
+            <td>@resturant.Location</td>
+            <td>@resturant.Cuisine</td>
+        
+        </tr>
+    }
+    </table>
     

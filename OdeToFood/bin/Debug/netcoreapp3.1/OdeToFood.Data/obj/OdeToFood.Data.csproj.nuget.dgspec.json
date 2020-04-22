@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj": {}
+  },
+  "projects": {
+    "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj",
+        "projectName": "OdeToFood.Core",
+        "projectPath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj",
+        "packagesPath": "/home/tanvir/.nuget/packages/",
+        "outputPath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tanvir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj",
+        "projectName": "OdeToFood.Data",
+        "projectPath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj",
+        "packagesPath": "/home/tanvir/.nuget/packages/",
+        "outputPath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tanvir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj": {
+                "projectPath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
