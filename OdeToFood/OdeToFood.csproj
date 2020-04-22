@@ -6,4 +6,7 @@
 
 
 
+  <ItemGroup>
+    <Folder Include="Pages\Restaurants\" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/tanvir/.dotnet/store/|arch|/|tfm|",
+      "/home/tanvir/.nuget/packages"
+    ]
+  }
+}
