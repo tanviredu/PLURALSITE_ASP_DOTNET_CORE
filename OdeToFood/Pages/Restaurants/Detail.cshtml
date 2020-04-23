@@ -1,0 +1,38 @@
+﻿@page
+@model DetailModel
+@{
+}
+
+<table class="table table-hover">
+
+    <tr>
+        <td>
+            <div>
+                @Model.Resturant.Id
+            </div>
+
+        </td>
+        <td>
+            <div>
+                @Model.Resturant.Name
+            </div>
+
+        </td>
+        <td>
+            <div>
+                @Model.Resturant.Cuisine
+            </div>
+
+        </td>
+        <td>
+            <div>
+                @Model.Resturant.Location
+            </div>
+
+        </td>
+
+    </tr>
+
+</table>
+
+<a asp-page="./List" class="btn btn-danger" > All Resturant</a>

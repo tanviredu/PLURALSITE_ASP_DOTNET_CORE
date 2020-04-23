@@ -44,6 +44,10 @@ namespace OdeToFood.Pages.Restaurants
         [BindProperty(SupportsGet=true)]
         public string SearchTerm{get;set;}
 
+
+        // now add the name to the value of the html form
+
+
         //we can import the configuration here too
         // the app settings.json file
         // lets import this configuration in the constructor
