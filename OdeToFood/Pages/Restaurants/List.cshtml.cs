@@ -41,6 +41,9 @@ namespace OdeToFood.Pages.Restaurants
 
 
 
+        [BindProperty(SupportsGet=true)]
+        public string SearchTerm{get;set;}
+
         //we can import the configuration here too
         // the app settings.json file
         // lets import this configuration in the constructor
@@ -61,7 +64,24 @@ namespace OdeToFood.Pages.Restaurants
         // you need tp pass the form name
         // in the parameter of the OnGet() method
         // ti will search for everywhere
-        public void OnGet(string searchTerm)
+
+        
+
+        // the search term is a input property
+        // every time you search it wil take the data from the search
+        // field
+        // but we want to stay the data there
+        // so we need to pass the same data that we get
+        // and send them to the form value
+        // so we make a bidirectional property
+        // then you no longer need the search term as 
+        // a parameter
+
+        
+
+
+
+        public void OnGet()
         {
 
             // any data this method exposes the razor page
@@ -72,7 +92,7 @@ namespace OdeToFood.Pages.Restaurants
             // now after this we can add 
             // this to our ListModel
             // now fill the Resturants property with data
-            ResturantsField = resturantData.GetResturantsByName(searchTerm);
+            ResturantsField = resturantData.GetResturantsByName(SearchTerm);
 
             // ok now go to razor pages
         }

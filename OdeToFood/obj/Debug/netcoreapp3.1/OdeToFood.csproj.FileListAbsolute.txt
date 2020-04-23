@@ -40,3 +40,5 @@
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/obj/Debug/netcoreapp3.1/OdeToFood.csproj.CopyComplete
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/obj/Debug/netcoreapp3.1/OdeToFood.dll
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/obj/Debug/netcoreapp3.1/OdeToFood.pdb
+/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/bin/Debug/netcoreapp3.1/OdeToFood.Core/bin/Debug/netcoreapp3.1/OdeToFood.Core.deps.json
+/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/bin/Debug/netcoreapp3.1/OdeToFood.Data/bin/Debug/netcoreapp3.1/OdeToFood.Data.deps.json
