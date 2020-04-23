@@ -1,15 +1,22 @@
 ﻿<Properties StartupConfiguration="{C7CF488D-0355-4E16-9FA4-4DE1EF4E28D3}|Default">
   <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Data/IResturantData.cs">
+    <Files>
+      <File FileName="OdeToFood.Data/InMemoryRestaurantData.cs" Line="52" Column="75" />
+      <File FileName="Pages/Restaurants/List.cshtml.cs" Line="75" Column="77" />
+      <File FileName="Pages/Restaurants/List.cshtml" Line="12" Column="51" />
+      <File FileName="OdeToFood.Data/IResturantData.cs" Line="20" Column="64" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OdeToFood" expanded="True">
             <Node name="OdeToFood" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="ProjectDependencies" expanded="True">
-                  <Node name="OdeToFood.Data" selected="True" />
-                </Node>
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="OdeToFood.Data" expanded="True">
+                <Node name="IResturantData.cs" selected="True" />
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Restaurants" expanded="True" />

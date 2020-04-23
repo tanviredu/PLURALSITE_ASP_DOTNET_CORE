@@ -4,8 +4,6 @@
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp3.1/OdeToFood.Core.dll
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp3.1/OdeToFood.Core.pdb
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.csprojAssemblyReference.cache
-/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.AssemblyInfoInputs.cache
-/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.AssemblyInfo.cs
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.csproj.CopyComplete
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.dll
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.pdb

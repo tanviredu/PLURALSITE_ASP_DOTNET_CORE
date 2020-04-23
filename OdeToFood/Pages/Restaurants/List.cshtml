@@ -1,9 +1,24 @@
 ﻿@page
 @model ListModel
 @{
+    // give the user ability to search
 }
 
 <h1> Restaurants List </h1>
+
+<form method="get">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" name="searchTerm" class="form-control" value=""/>
+                <span class="input-group-btn">
+                    <button class="btn btn-default">
+                        Search
+                    </button>
+                </span>
+                
+            </div>
+        </div>
+</form>
 
 <table class="table table-hover">
     @foreach(var resturant in Model.ResturantsField){
@@ -16,4 +31,6 @@
         </tr>
     }
     </table>
+    
+    
     

@@ -58,21 +58,21 @@ namespace OdeToFood.Pages.Restaurants
 
 
         // on get process the get request
-        public void OnGet()
+        // you need tp pass the form name
+        // in the parameter of the OnGet() method
+        // ti will search for everywhere
+        public void OnGet(string searchTerm)
         {
+
             // any data this method exposes the razor page
             // has this access to this value
             //Message = "hello World";
             // this is how you can access settings
             Message = Config["Messages"];
-
-
             // now after this we can add 
             // this to our ListModel
-
-
             // now fill the Resturants property with data
-            ResturantsField = resturantData.GetAll();
+            ResturantsField = resturantData.GetResturantsByName(searchTerm);
 
             // ok now go to razor pages
         }
