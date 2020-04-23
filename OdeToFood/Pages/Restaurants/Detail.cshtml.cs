@@ -20,9 +20,12 @@ namespace OdeToFood.Pages.Restaurants
         // the restaurent object in the onget
         // global
         public Resturant Resturant {get;set;}
-        public void OnGet()
-        {
 
+        // this parameter have to be
+        // to match the asp-route parameter
+        public void OnGet(int resturentId)
+        {
+            Console.WriteLine(resturentId);
             Resturant = new Resturant();
         }
     }
