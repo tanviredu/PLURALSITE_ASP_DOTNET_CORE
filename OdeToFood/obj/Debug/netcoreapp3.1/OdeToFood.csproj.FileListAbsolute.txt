@@ -43,3 +43,4 @@
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/bin/Debug/netcoreapp3.1/OdeToFood.Core/bin/Debug/netcoreapp3.1/OdeToFood.Core.deps.json
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/bin/Debug/netcoreapp3.1/OdeToFood.Data/bin/Debug/netcoreapp3.1/OdeToFood.Data.deps.json
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs
+/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/NotFound.cshtml.g.cs

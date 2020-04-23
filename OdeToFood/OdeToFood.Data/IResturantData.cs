@@ -18,6 +18,7 @@ namespace OdeToFood.Data
         // you will get all the result
 
         IEnumerable<Resturant> GetResturantsByName(string name);
+        Resturant GetById(int id);
 
 
 

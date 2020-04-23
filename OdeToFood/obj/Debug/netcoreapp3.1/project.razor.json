@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/Pages/Restaurants/NotFound.cshtml",
+      "TargetPath": "Pages\\Restaurants\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/Pages/Restaurants/List.cshtml",
       "TargetPath": "Pages\\Restaurants\\List.cshtml",
       "FileKind": "mvc"

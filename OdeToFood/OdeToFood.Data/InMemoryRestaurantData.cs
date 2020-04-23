@@ -6,12 +6,27 @@ namespace OdeToFood.Data
     // make an in memory implementation
     // of the resturant data
 
+    // implement this here
+    // Resturant will be the return value
+    
     public class InMemoryRestaurantData : IResturantData
     {
 
         // make some dummy data for inmemory uses
 
         List<Resturant> restaurants;
+
+
+
+
+
+        
+        public Resturant GetById(int id){
+            // return r if r.id ==id
+            // this is Linq
+        return restaurants.SingleOrDefault(r=>r.Id==id);
+    }
+
 
 
 
