@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/tanvir/.dotnet/store/|arch|/|tfm|",
-      "/home/tanvir/.nuget/packages"
+      "C:\\Users\\ornob\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ornob\\.nuget\\packages"
     ]
   }
 }

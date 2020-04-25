@@ -7,3 +7,13 @@
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.csproj.CopyComplete
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.dll
 /home/tanvir/storage2/code/PLURALSITE_ASP_DOTNET_CORE/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp3.1/OdeToFood.Data.pdb
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.deps.json
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.dll
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.pdb
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Core.pdb
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csprojAssemblyReference.cache
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CopyComplete
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.dll
+A:\PLURALSITE_ASP_DOTNET_CORE\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.pdb
