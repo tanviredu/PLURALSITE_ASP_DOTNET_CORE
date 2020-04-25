@@ -146,11 +146,26 @@ namespace OdeToFood.Pages.Restaurants
             // Resturant
             // then we apply the commit()
             // then return the same page
-            Resturant = resturantData.Update(Resturant);
-            resturantData.Commit();
+
+
+            // adding validation
+
+            if (ModelState.IsValid) {
+                // if valid
+                // then update this
+                // and in cshtml we add a validation msg
+                Resturant = resturantData.Update(Resturant);
+                resturantData.Commit();
+                // we redirect to the Detail page
+                // with the additional value
+                // detail page need a id
+                return RedirectToPage("./Detail", new { resturentId = Resturant.Id }); ;
+
+            }// else just return the same page
             return Page();
         
         }
+
 
 
 

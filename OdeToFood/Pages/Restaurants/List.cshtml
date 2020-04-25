@@ -7,23 +7,24 @@
 <h1> Restaurants List </h1>
 
 <form method="get">
-        <div class="form-group">
-            <div class="input-group">
-                <input type="search" name="searchTerm" class="form-control" value="" asp-for="SearchTerm"/>
-                <span class="input-group-btn">
-                    <button class="btn btn-default">
-                        Search
-                    </button>
-                </span>
-                
-            </div>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" name="searchTerm" class="form-control" value="" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    Search
+                </button>
+            </span>
+
         </div>
+    </div>
 </form>
 
 <table class="table table-hover">
-    @foreach(var resturant in Model.ResturantsField){
-    
-        <tr> 
+    @foreach (var resturant in Model.ResturantsField)
+    {
+
+        <tr>
             <td>@resturant.Name</td>
             <td>@resturant.Location</td>
             <td>@resturant.Cuisine</td>
@@ -37,10 +38,12 @@
                 </a>
 
             </td>
-        
+
         </tr>
     }
-    </table>
-    
-    
-    
+</table>
+
+<!-- we use the Edit page differently to make a create page-->
+<a class="btn btn-lg btn btn-success" href="./Edit">
+    Create Restaurant
+</a>
