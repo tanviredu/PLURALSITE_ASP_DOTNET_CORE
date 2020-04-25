@@ -79,6 +79,26 @@ namespace OdeToFood.Data
 
         }
 
+        public Resturant Update(Resturant updatedResturant)
+        {
+            var resturant = restaurants.SingleOrDefault(r => r.Id == updatedResturant.Id);
+            if (resturant != null) {
+
+                // change the value with the new value
+                // not the id
+                // id remain the same
+                resturant.Name = updatedResturant.Name;
+                resturant.Cuisine = updatedResturant.Cuisine;
+                resturant.Location = updatedResturant.Location;
+            }
+            return resturant;
+        }
+
+        public int Commit()
+        {
+            return 0;
+        }
+
         // now we have to send this data to razor page
         // but this interfce may have multiple
         //implementation like database,or nosql database,or filestorage

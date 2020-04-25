@@ -20,6 +20,11 @@ namespace OdeToFood.Data
         IEnumerable<Resturant> GetResturantsByName(string name);
         Resturant GetById(int id);
 
+        // now the update resturant 
+        // it will take a resturant and return a Resturant
+        Resturant Update(Resturant updatedResturant);
+        int Commit();
+
 
 
         // this will get all the resturant object

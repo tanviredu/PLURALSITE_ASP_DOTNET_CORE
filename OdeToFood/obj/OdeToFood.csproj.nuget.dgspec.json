@@ -79,6 +79,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "A:\\PLURALSITE_ASP_DOTNET_CORE\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+                "projectPath": "A:\\PLURALSITE_ASP_DOTNET_CORE\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+              },
               "A:\\PLURALSITE_ASP_DOTNET_CORE\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
                 "projectPath": "A:\\PLURALSITE_ASP_DOTNET_CORE\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
               }
@@ -93,6 +96,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
