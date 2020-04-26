@@ -21,7 +21,9 @@ namespace OdeToFood.Data
 
 
         
-        public Resturant GetById(int id){
+
+        // make this nullable too
+        public Resturant GetById(int? id){
             // return r if r.id ==id
             // this is Linq
         return restaurants.SingleOrDefault(r=>r.Id==id);
@@ -99,21 +101,20 @@ namespace OdeToFood.Data
             return 0;
         }
 
-        // now we have to send this data to razor page
-        // but this interfce may have multiple
-        //implementation like database,or nosql database,or filestorage
-        // you can init the required method in the razor page
-        // but we dont init any object in razor page
-        // insted we change the service file
-        // and tell them when we create the instalce of this Iresturant class
-        // you will load only the InMemory method not other
-        // later we can swith to databse just changing the configuration
-        // this is called dependeny inversion
-        // when ever we instanciate this class
-        // only this method will be applied throughout the program
+        public Resturant Add(Resturant newResturant)
+        {
+            // add it to the resurants list thats it
+            restaurants.Add(newResturant);
+            // now even wit the inmemory
+            // we want to save it like the database
+            // so we increment the id after every time we addit
+            newResturant.Id = restaurants.Max(r => r.Id) + 1;
+            return newResturant;
+            // now go to the OnPost to change when update
+            // is executed and when the Add
+        }
 
-        // to do this go to Startup.cs file
-
+        
 
     }
 }

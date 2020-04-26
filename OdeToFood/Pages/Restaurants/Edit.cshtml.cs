@@ -102,30 +102,25 @@ namespace OdeToFood.Pages.Restaurants
         // for handling bad request
 
         
-        public IActionResult OnGet(int resturentId)
+
+            // make this parameter optional 
+            // to support the create page
+            // we make this parameter nullab;e
+        public IActionResult OnGet(int? resturentId)
         {
 
-            // now everytime you create a resturant 
-            // object some method will come with it
-            // because of the implementaion of the Resturane
-            // we make another method in the Interface IresturantData
-            // Inodetofood.Data project
-            // so implement this too
-            //GetById
-            // first maeke the method that returns a resturant
+            // checked if the resturantId is inserted
+            if (resturentId.HasValue) {
+                Cuisines = htmlHelper.GetEnumSelectList<Resturant.CuisineType>();
+                Resturant = resturantData.GetById(resturentId);
 
-            //Console.WriteLine(resturentId);
+            }
+            else
+            {
+                // create a new object
+                Resturant = new Resturant();
 
-            // this Iresturant gives us the method
-            // if you go to the GetById in the
-            // in memory model
-            // you will see that it return
-            // a searchresult from the search result
-            // so here the resturaantdata type has method GetById
-            // and for inmemory it returns a Resturant object
-            // in the output field
-            Cuisines = htmlHelper.GetEnumSelectList<Resturant.CuisineType>();
-            Resturant = resturantData.GetById(resturentId);
+            }
             // page will return a implementation
             // of the Iaction and send the Page
 
@@ -150,20 +145,38 @@ namespace OdeToFood.Pages.Restaurants
 
             // adding validation
 
-            if (ModelState.IsValid) {
-                // if valid
-                // then update this
-                // and in cshtml we add a validation msg
-                Resturant = resturantData.Update(Resturant);
-                resturantData.Commit();
-                // we redirect to the Detail page
-                // with the additional value
-                // detail page need a id
-                return RedirectToPage("./Detail", new { resturentId = Resturant.Id }); ;
+            if (!ModelState.IsValid) {
+                return Page();
+                
+            }
 
-            }// else just return the same page
-            return Page();
-        
+            // check if the resturantId is greated than 0
+            // if it is then it is  a edit request
+            // other wise it is a create post
+
+            if (Resturant.Id > 0) {
+                Resturant = resturantData.Update(Resturant);
+                // now send a confirmation string
+                // there is a  data structue called tmp data
+                // after using it will autometicallly deleted
+                // can directly use it
+
+
+                TempData["Message"] = "Resturant Updated";
+            }
+            else
+            {
+                // add it to the data service
+                resturantData.Add(Resturant);
+                TempData["Message"] = "Resturant Created";
+            }
+            // confirm it
+            resturantData.Commit();
+
+
+            return RedirectToPage("./Detail", new { resturentId = Resturant.Id }); ;
+
+
         }
 
 

@@ -16,6 +16,11 @@ namespace OdeToFood.Pages.Restaurants
         // ekta type nilam
         private readonly IResturantData resturantData;
 
+        // adding field for storing the temp data
+        // this flag will autometically store data in it
+        [TempData]
+        public string Message { get; set; }
+
 
         // type ta fill korlam
 

@@ -6,24 +6,21 @@ namespace OdeToFood.Data
 {
     public interface IResturantData
     {
-        // IEnumerable in C# is an interface that defines one method, 
-        //GetEnumerator (GetAll()) which returns an IEnumerator interface. 
-        //This allows readonly access to a collection 
-        // and you can also apply loop in this collection
-        // much like a list
-
-        //IEnumerable <Resturant> GetAll();
-        // isted of get all we can search for getAllByName()
-        // and when you entered an empty parameter
-        // you will get all the result
-
+        
         IEnumerable<Resturant> GetResturantsByName(string name);
-        Resturant GetById(int id);
+        Resturant GetById(int? id);
 
         // now the update resturant 
         // it will take a resturant and return a Resturant
         Resturant Update(Resturant updatedResturant);
+        // another method to create a resturent
+        //cshtml will return a  new resturant object
+        // and this will save it to the in memory
+        // take a resturant object return a resturant object
+        Resturant Add(Resturant newResturant);
+        // and implement in the Inmemory data
         int Commit();
+        
 
 
 
